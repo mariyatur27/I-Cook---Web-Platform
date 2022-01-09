@@ -4,6 +4,8 @@
 /* To add to an html file:
 <script src="js/fetch_data.js"></script>
 <script src="js/recipes.js"></script>
+*/
+/* Then at the bottom
 <script>build_recipe_page();</script>
 */
 
@@ -12,12 +14,14 @@
 <script>build_recipe_page(new URL(window.location.href).searchParams.get("id"));</script>
 */
 
-async function build_recipe_page(divID, id=null) {
+async function build_recipe_page(id=null) {
     if (!dataFetched) {
         await fetch_data();
     }
 
     let section = document.getElementById("recipes");
+    console.log(section);
+    console.log(document.getElementById("recipes"));
     // If this page is being served from an actual website, the recipes variable will now have the
     // same contents as recipes.json. So, you can do something like: 
     
