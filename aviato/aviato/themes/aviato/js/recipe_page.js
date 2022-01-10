@@ -27,7 +27,7 @@ async function setupRecipePage(recipeID) {
         let ingredients = document.createElement("div"); ingredients.classList.add("ingredients");
         let ingredient_title = document.createElement("h3"); ingredient_title.classList.add("sub_title"); ingredient_title.innerText = "Ingredients: ";
         main_section.appendChild(ingredient_title);
-            let a_list = document.createElement("ul"); a_list.classList.add("ingredient_list");
+            let a_list = document.createElement("div"); a_list.classList.add("ingredient_list");
                 for (const food of recipe.ingredients) {
                    // Creating checkboxes
                    if ("ingredient" in food) {

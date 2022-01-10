@@ -44,6 +44,78 @@ var recipes = [
             {"step" : "Step 3", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
             {"step" : "Step 4", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "}
         ]
+    },
+    {
+        "name": "Tiramisu",
+        "id": "tiramisu",
+        "image": "https://www.culinaryhill.com/wp-content/uploads/2020/09/Tiramisu-Recipe-Culinary-Hill-HR-03SQ.jpg",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis.",
+        "preperation_time" : "2 hours",
+        "servings": "6",
+        "difficulty": "medium",
+        "introduction" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Provident?",
+        "ingredients" : [
+            {"ingredient" : "Sugar", "quantity": "60g"},
+            {"ingredient" : "Milk", "quantity": "100g"},
+            {"ingredient" : "Flour", "quantity": "2 cups"},
+            {"ingredient" : "Cinnamon", "quantity": "30g"},
+            {"ingredient" : "Butter", "quantity": "1 cup"}
+        ],
+        "directions" : [
+            {"step" : "Step 1", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 2", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 3", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 4", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "}
+        ],
+        "tips" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "
+    },
+    {
+        "name": "Pizza",
+        "id": "pizza",
+        "image": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Pizza-from-Scratch_EXPS_FT20_8621_F_0505_1_home.jpg",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis.",
+        "preperation_time" : "2 hours",
+        "servings": "6",
+        "difficulty": "medium",
+        "introduction" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Provident?",
+        "ingredients" : [
+            {"ingredient" : "Sugar", "quantity": "60g"},
+            {"ingredient" : "Milk", "quantity": "100g"},
+            {"ingredient" : "Flour", "quantity": "2 cups"},
+            {"ingredient" : "Cinnamon", "quantity": "30g"},
+            {"ingredient" : "Butter", "quantity": "1 cup"}
+        ],
+        "directions" : [
+            {"step" : "Step 1", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 2", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 3", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 4", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "}
+        ],
+        "tips" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "
+    },
+    {
+        "name": "Bread",
+        "id": "bread",
+        "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-11-Potato-Bread%2Fpotato_bread_01",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis.",
+        "preperation_time" : "2 hours",
+        "servings": "6",
+        "difficulty": "medium",
+        "introduction" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Provident?",
+        "ingredients" : [
+            {"ingredient" : "Sugar", "quantity": "60g"},
+            {"ingredient" : "Milk", "quantity": "100g"},
+            {"ingredient" : "Flour", "quantity": "2 cups"},
+            {"ingredient" : "Cinnamon", "quantity": "30g"},
+            {"ingredient" : "Butter", "quantity": "1 cup"}
+        ],
+        "directions" : [
+            {"step" : "Step 1", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 2", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 3", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 4", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "}
+        ],
+        "tips" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "
     }
 ];
 
