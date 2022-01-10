@@ -275,7 +275,65 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   overflow: hidden;
   width: 100%;
 }
-
+/* Newly Added CSS */
+.box_contents {
+  padding: 2%;
+  margin-top: 1%;
+}
+.recipe_box {
+  padding: 2%;
+  width: 80%;
+  margin-left: 9%;
+  display: flex;
+  border-bottom: 1px solid #a59b9b;
+  margin-top: 4%;
+}
+img.recipe_image {
+  width: 20%;
+  border-radius: 50%;
+}
+button.page_link {
+  border-style: solid;
+  border-color: black;
+  padding: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background: transparent;
+}
+p.intro {
+  font-size: 20px;
+}
+img.recipe_img {
+  width: 33%;
+  border-radius: 50%;
+  margin-top: -6%;
+  margin-left: 54%;
+}
+.sub_section {
+  display: flex;
+  margin-top: 5%;
+}
+ul.ingredient_list {
+  font-size: 20px;
+  width: 154%;
+  line-height: 2;
+}
+p.instructions {
+  font-size: 18px;
+  margin-top: 0.5%;
+  margin-bottom: 3%;
+  width: 80%;
+}
+.info {
+  position: absolute;
+  left: 31%;
+  border: solid;
+  padding: 2%;
+}
+h3.info_title {
+  font-weight: 100;
+  font-size: 20px;
+}
 @media (max-width: 400px) {
   .category-box {
     min-height: 250px;

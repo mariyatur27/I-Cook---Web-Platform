@@ -2,22 +2,47 @@ var recipes = [
     {
         "name": "Cinnamon Buns",
         "id": "cinnamonbuns",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. ",
+        "image": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Best-Cinnamon-Rolls_EXPS_BW20_22631_B09_29_20b.jpg",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis.",
+        "preperation_time" : "2 hours",
+        "servings": "6",
+        "difficulty": "medium",
+        "introduction" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Provident?",
+        "ingredients" : [
+            {"ingredient" : "Sugar", "quantity": "60g"},
+            {"ingredient" : "Milk", "quantity": "100g"},
+            {"ingredient" : "Flour", "quantity": "2 cups"},
+            {"ingredient" : "Cinnamon", "quantity": "30g"},
+            {"ingredient" : "Butter", "quantity": "1 cup"}
+        ],
+        "directions" : [
+            {"step" : "Step 1", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 2", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 3", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 4", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "}
+        ],
+        "tips" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "
+    },
+    {
+        "name": "Macroons",
+        "id": "macaroons",
+        "image": "https://www.indulgewithmimi.com/wp-content/uploads/2020/10/tips-how-to-bake-round-macaron-shells.jpg",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis.",
         "preperation_time" : "2 hours",
         "servings": "6",
         "introduction" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Provident?",
         "ingredients" : [
-            {"sugar" : "60g"},
-            {"milk" : "100g"},
-            {"flour" : "2 cups"},
-            {"cinnamon" : "30g"},
-            {"butter" : "1 cup"}
+            {"ingredient" : "Sugar", "quantity": "60g"},
+            {"ingredient" : "Milk", "quantity": "100g"},
+            {"ingredient" : "Flour", "quantity": "2 cups"},
+            {"ingredient" : "Cinnamon", "quantity": "30g"},
+            {"ingredient" : "Butter", "quantity": "1 cup"}
         ],
         "directions" : [
-            {"step_1" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
-            {"step_2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
-            {"step_3" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
-            {"step_4" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 1", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 2", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 3", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
+            {"step" : "Step 4", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "}
         ]
     }
 ];
