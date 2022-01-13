@@ -36,6 +36,7 @@
   <script src="js/fetch_data.js"></script>
   <script src="js/recipes.js"></script>
   <script src="js/recipe_circle.js"></script>
+  <script src="js/search_bar.js"></script>
 
 </head>
 
@@ -345,10 +346,10 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="title text-center">
-					<h2>Discover Our Best Recipes</h2>
+					<h2>Find a Recipe Based on Your Ingredients</h2>
 				</div>
 			</div>
-		<input type="text" id="search" name="search" class="search" placeholder = "Search a recipe ... ">
+		<input type="text" id="search" name="search" class="search" placeholder = "Search ingredients ... ">
 		<div class="dishes" id="dishes"></div>
 	</div>
 </section>
@@ -751,7 +752,7 @@ Start Call To Action
     <script src="js/script.js"></script>
 	<script>build_recipe_page();</script>
 	<script>display_recipes();</script>
-    
+    <script>searchFunction();</script>
 
 
   </body>
