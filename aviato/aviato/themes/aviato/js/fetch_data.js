@@ -1,25 +1,32 @@
 var recipes = [
     {
-        "name": "Cinnamon Buns",
-        "id": "cinnamonbuns",
+        "name": "Amaretti Macaroons",
+        "id": "amarettimacaroons",
         "image": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Best-Cinnamon-Rolls_EXPS_BW20_22631_B09_29_20b.jpg",
         "description" : "These beautiful macaroons have a delicious almond taste, with a hint of chocolate. They are easy to prepare and are ready in 15 minutes. The exterior of these treats crack as they bake, giving them a unique look and texture. The use of almond flour adds nutrients that are not often found in cookies and makes these macaroons suitable for people with sensitivities to grain  flours. They are an excellent treat, and quick to prepare.",
         "preperation_time" : "2 hours",
-        "servings": "6",
+        "servings": "24",
         "difficulty": "medium",
-        "introduction" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Provident?",
+        "introduction" : "These beautiful macaroons have a delicious almond taste, with a hint of chocolate. They are easy to prepare and are ready in 15 minutes. The exterior of these treats crack as they bake, giving them a unique look and texture. The use of almond flour adds nutrients that are not often found in cookies and makes these macaroons suitable for people with sensitivities to grain  flours. They are an excellent treat, and quick to prepare.",
         "ingredients" : [
-            {"ingredient" : "Sugar", "quantity": "60g"},
-            {"ingredient" : "Milk", "quantity": "100g"},
-            {"ingredient" : "Flour", "quantity": "2 cups"},
-            {"ingredient" : "Cinnamon", "quantity": "30g"},
-            {"ingredient" : "Butter", "quantity": "1 cup"}
+            {"ingredient" : "Flour", "quantity": "3 1/2 cups"},
+            {"ingredient" : "Sugar", "quantity": "1 1/8 cups"},
+            {"ingredient" : "Eggs", "quantity": "2"},
+            {"ingredient" : "Cocoa Powder", "quantity": "1 tbsp"},
+            {"ingredient" : "Almond Extract", "quantity": "1 tsp"},
+            {"ingredient" : "Baking Powder", "quantity": "1 tsp"},
+            {"ingredient" : "Powdered Sugar", "quantity": "1/4 cup"},
+            {"ingredient" : "Almond Extract", "quantity": "1 tsp"},
+            {"ingredient" : "Almonds", "quantity": "Optional"}
         ],
         "directions" : [
-            {"step" : "Step 1", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
-            {"step" : "Step 2", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
-            {"step" : "Step 3", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "},
-            {"step" : "Step 4", "directions": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "}
+            {"step" : "Step 1", "directions": "Beat the two eggs in a bowl with the granulated sugar. "},
+            {"step" : "Step 2", "directions": "Add the almond extract and mix well."},
+            {"step" : "Step 3", "directions": "Add the almond flour, baking powder, and cocoa powder and mix until smooth."},
+            {"step" : "Step 4", "directions": "Roll into about 1 ½ inch balls with your hands. Roll them in powdered sugar. They should keep their shape."},
+            {"step" : "Step 5", "directions": "Put parchment paper on the tray. Add the macaroons on top of the parchment paper, leaving an inch of space between them."},
+            {"step" : "Step 6", "directions": "Press almonds into the top of the macaroons (optional)."},
+            {"step" : "Step 7", "directions": "Place in the oven at 360℉ and bake for 15 minutes."}
         ],
         "tips" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. "
     },
