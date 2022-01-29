@@ -27,7 +27,7 @@ var recipes = [
         "name": "Macroons",
         "id": "macaroons",
         "image": "https://www.indulgewithmimi.com/wp-content/uploads/2020/10/tips-how-to-bake-round-macaron-shells.jpg",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis.",
+        "description" : "These beautiful macaroons have a delicious almond taste, with a hint of chocolate. They are easy to prepare and are ready in 15 minutes. The exterior of these treats crack as they bake, giving them a unique look and texture. The use of almond flour adds nutrients that are not often found in cookies and makes these macaroons suitable for people with sensitivities to grain  flours. They are an excellent treat, and quick to prepare. ",
         "preperation_time" : "2 hours",
         "servings": "6",
         "introduction" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Provident?",
