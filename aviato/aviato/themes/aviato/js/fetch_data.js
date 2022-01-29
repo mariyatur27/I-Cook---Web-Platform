@@ -9,7 +9,7 @@ var recipes = [
         "difficulty": "medium",
         "introduction" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi magni ad omnis, maxime impedit quia, ea illum vitae earum reprehenderit dolor dolorem beatae exercitationem tempore nisi aperiam quis. Provident?",
         "ingredients" : [
-            {"ingredient" : "Sugar", "quantity": "60g"},
+            {"ingredient" : "Almonds", "quantity": "60g"},
             {"ingredient" : "Milk", "quantity": "100g"},
             {"ingredient" : "Flour", "quantity": "2 cups"},
             {"ingredient" : "Cinnamon", "quantity": "30g"},

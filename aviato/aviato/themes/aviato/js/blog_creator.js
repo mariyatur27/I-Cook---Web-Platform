@@ -31,7 +31,10 @@ async function blog_builder(id=null) {
                     let link = document.createElement("a"); link.classList.add("btn"); link.classList.add("btn-main");
                     link.title = "Continue Reading";
                     link.innerHTML = "Continue Reading";
-                    link.href = "index.html";
+                    let redirectPage = "blog-single.html";
+                    let urlParamName = "blog";
+                    let recipe_href = redirectPage + "?" + urlParamName + "=" + blog.id;
+                    link.href = recipe_href;
                     content.appendChild(link);
                 main.appendChild(content)
             section.appendChild(main)
