@@ -36,9 +36,11 @@ async function setupRecipePage(recipeID) {
                     checkbox.name = food.ingredient;
                     checkbox.value = food.ingredient;
                     checkbox.id = food.ingredient;
+                    let space = document.createElement("br");
                     let ingredient = document.createElement('label');
                     ingredient.htmlFor = food.ingredient;
                     ingredient.appendChild(document.createTextNode(food.ingredient.concat(" - ").concat(food.quantity)));
+                    ingredient.appendChild(space);
                     // a_list.appendChild(checkbox);
                     a_list.appendChild(ingredient);
                    }
