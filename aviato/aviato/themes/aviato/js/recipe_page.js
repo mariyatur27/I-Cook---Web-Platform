@@ -40,9 +40,10 @@ async function setupRecipePage(recipeID) {
                     let ingredient = document.createElement('label');
                     ingredient.htmlFor = food.ingredient;
                     ingredient.appendChild(document.createTextNode(food.ingredient.concat(" - ").concat(food.quantity)));
-                    ingredient.appendChild(space);
+                    // ingredient.appendChild(space);
                     // a_list.appendChild(checkbox);
                     a_list.appendChild(ingredient);
+                    a_list.appendChild(space);
                    }
                 }
             ingredients.appendChild(a_list);
@@ -55,7 +56,7 @@ async function setupRecipePage(recipeID) {
             let info2 = document.createElement("h3"); info2.classList.add("info_title"); info2.innerText = "Servings: ".concat(recipe.servings);
             info_section.appendChild(info2);
         sub_section.appendChild(info_section);
-        let image = document.createElement("img"); image.classList.add("recipe_img"); image.src = recipe.image;
+        let image = document.createElement("img"); image.classList.add("recipe_img2"); image.src = recipe.image;
         sub_section.appendChild(image);
     main_section.appendChild(sub_section);
     // Directions

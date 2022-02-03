@@ -4,7 +4,7 @@ var blogs = [
         "id" : "blog1",
         "date": "20, MAR 2017",
         "author": "Mariya Turetska",
-        "tags": "Cooking, Restaurants, Bakery",
+        "tags": "Cooking",
         "instagram" : "",
         "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit!",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit!",
@@ -17,7 +17,7 @@ var blogs = [
         "instagram" : "",
         "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit!",
         "author": "Mariya Turetska",
-        "tags": "Cooking, Restaurants, Bakery",
+        "tags": "Restaurants",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit!",
         "image" : "https://cdn.cnn.com/cnnnext/dam/assets/200319162747-family-cooking-stock-super-tease.jpg"
     },
@@ -28,7 +28,7 @@ var blogs = [
         "instagram" : "",
         "author": "Mariya Turetska",
         "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit!",
-        "tags": "Cooking, Restaurants, Bakery",
+        "tags": "Industry",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit!",
         "image" : "https://cdn.cnn.com/cnnnext/dam/assets/200319162747-family-cooking-stock-super-tease.jpg"
     },
@@ -38,7 +38,7 @@ var blogs = [
         "date": "20, MAR 2017",
         "author": "Mariya Turetska",
         "instagram" : "",
-        "tags": "Cooking, Restaurants, Bakery",
+        "tags": "Unique",
         "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit!",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloremque ratione assumenda distinctio atque voluptate sunt aut nulla error totam illo debitis eius quia, odit tempore aspernatur similique sit!",
         "image" : "https://cdn.cnn.com/cnnnext/dam/assets/200319162747-family-cooking-stock-super-tease.jpg"

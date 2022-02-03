@@ -11,26 +11,26 @@ function search(input) {
   }  
 }
 
-// Button category function
-var buttons = document.getElementsByClassName("btn1");
-for (var i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener('click', function() {
-    var category_list = [];
-    var names_list = [];
-    var categories = document.getElementsByClassName("tag");
-    for (var i = 0; i < categories.length; i++) {
-      category_list.push(categories[i].innerHTML.toLowerCase().split(" "));
-    }
-    // Making a dictionary out of article names and categories
-    var names = document.getElementsByClassName("post-title");
-    for (var i = 0; i < document.getElementsByClassName("post-title").length; i++){
-      names_list.push(names[i].innerHTML.toLowerCase());
-    }
-    var dict = {};
-    names_list.forEach((key, i) => dict[key] = category_list[i]);
-    console.log(dict);
-  })
-}
+// // Button category function
+// var buttons = document.getElementsByClassName("btn1");
+// for (var i = 0; i < buttons.length; i++) {
+//   buttons[i].addEventListener('click', function() {
+//     var category_list = [];
+//     var names_list = [];
+//     var categories = document.getElementsByClassName("tag");
+//     for (var i = 0; i < categories.length; i++) {
+//       category_list.push(categories[i].innerHTML.toLowerCase().split(" "));
+//     }
+//     // Making a dictionary out of article names and categories
+//     var names = document.getElementsByClassName("post-title");
+//     for (var i = 0; i < document.getElementsByClassName("post-title").length; i++){
+//       names_list.push(names[i].innerHTML.toLowerCase());
+//     }
+//     var dict = {};
+//     names_list.forEach((key, i) => dict[key] = category_list[i]);
+//     console.log(dict);
+//   })
+// }
 
 (function ($) {
   'use strict';
@@ -122,3 +122,94 @@ for (var i = 0; i < buttons.length; i++) {
 
 
 })(jQuery);
+
+
+function SearchRecipe(input) {
+  var name = document.getElementsByClassName('r_name');
+  var recipe_box = document.getElementsByClassName('recipe_box');
+
+  for (var i = 0; i < name.length; i++) {
+      if (!name[i].innerHTML.toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
+          recipe_box[i].style.display = "none";
+      }else{
+          recipe_box[i].style.display = "flex";
+          recipe_box[i].style.marginTop = "0%";
+      }
+  }
+}
+document.getElementById("deserts_b").addEventListener('click', function() {
+  var recipe_box = document.getElementsByClassName('recipe_box');
+  var info = document.getElementsByClassName('more_info');
+  for (var i = 0; i < info.length; i++){
+      if (!info[i].innerHTML.toLocaleLowerCase().includes("desert")) {
+          recipe_box[i].style.display = "none";
+      }else{
+          recipe_box[i].style.display = "flex";
+      }
+  }
+})
+
+document.getElementById("soups_b").addEventListener('click', function() {
+  var recipe_box = document.getElementsByClassName('recipe_box');
+  var info = document.getElementsByClassName('more_info');
+  for (var i = 0; i < info.length; i++){
+      if (!info[i].innerHTML.toLocaleLowerCase().includes("soup")) {
+          recipe_box[i].style.display = "none";
+      }else{
+          recipe_box[i].style.display = "flex";
+      }
+  }
+})
+
+
+document.getElementById("meat_b").addEventListener('click', function() {
+  var recipe_box = document.getElementsByClassName('recipe_box');
+  var info = document.getElementsByClassName('more_info');
+  for (var i = 0; i < info.length; i++){
+      if (!info[i].innerHTML.toLocaleLowerCase().includes("meat")) {
+          recipe_box[i].style.display = "none";
+      }else{
+          recipe_box[i].style.display = "flex";
+      }
+  }
+})
+
+
+document.getElementById("main_b").addEventListener('click', function() {
+  var recipe_box = document.getElementsByClassName('recipe_box');
+  var info = document.getElementsByClassName('more_info');
+  for (var i = 0; i < info.length; i++){
+      if (!info[i].innerHTML.toLocaleLowerCase().includes("main")) {
+          recipe_box[i].style.display = "none";
+      }else{
+          recipe_box[i].style.display = "flex";
+      }
+  }
+})
+
+
+document.getElementById("vegeterian_b").addEventListener('click', function() {
+  var recipe_box = document.getElementsByClassName('recipe_box');
+  var info = document.getElementsByClassName('more_info');
+  for (var i = 0; i < info.length; i++){
+      if (!info[i].innerHTML.toLocaleLowerCase().includes("vegeterian")) {
+          recipe_box[i].style.display = "none";
+      }else{
+          recipe_box[i].style.display = "flex";
+      }
+  }
+})
+
+document.getElementById("appetizers_b").addEventListener('click', function() {
+  var recipe_box = document.getElementsByClassName('recipe_box');
+  var info = document.getElementsByClassName('more_info');
+  for (var i = 0; i < info.length; i++){
+      if (!info[i].innerHTML.toLocaleLowerCase().includes("appetizer")) {
+          recipe_box[i].style.display = "none";
+      }else{
+          recipe_box[i].style.display = "flex";
+      }
+  }
+})
+
+

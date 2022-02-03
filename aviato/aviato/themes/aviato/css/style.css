@@ -297,11 +297,31 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   margin-left: 9%;
   display: flex;
   border-bottom: 1px solid #a59b9b;
-  margin-top: 4%;
+  margin-top: 0%;
+  margin-bottom: 5%;
 }
 img.recipe_image {
-  width: 23%;
+  width: 25%;
   border-radius: 50%;
+}
+img.recipe_img2 {
+  width: 28%;
+  border-radius: 50%;
+  margin-top: -5%;
+}
+ul.filters {
+  display: flex;
+  margin-left: 28%;
+  margin-top: 2%;
+  font-weight: 700;
+}
+.filters li {
+  margin-right: 4%;
+}
+.filters button {
+  border: none;
+  background: transparent;
+  color: #928652;
 }
 input#search_category {
     margin-left: 1%;
@@ -333,8 +353,15 @@ img.recipe_img {
 }
 .ingredient_list {
   font-size: 20px;
-  width: 56%;
+  width: 100%;
   line-height: 2;
+}
+img.recipe_img2 {
+  width: 23%;
+  border-radius: 50%;
+  position: absolute;
+  left: 66%;
+  top: 76%;
 }
 p.instructions {
   font-size: 18px;
@@ -344,7 +371,7 @@ p.instructions {
 }
 .info {
   position: absolute;
-  left: 31%;
+  left: 37%;
   border: solid;
   padding: 2%;
 }
@@ -356,6 +383,7 @@ input#search {
   width: 70%;
   border-style: solid;
   padding-left: 2%;
+  margin-left: 16%;
 }
 img.the_image {
   width: 80%;

@@ -17,8 +17,10 @@ async function build_recipe_page(id=null) {
                     contents.appendChild(recipe_name);
                     let description = document.createElement("p"); description.classList.add("r_dscr"); description.innerText = recipe.description;
                     contents.appendChild(description); 
+                    let type = document.createElement("h5"); type.classList.add("more_info"); type.innerText = "Additional Information: ".concat(recipe.type).concat(", takes ").concat(recipe.preperation_time).concat(" to prepare");
+                    contents.appendChild(type);
                     if ("difficulty" in recipe){
-                        let difficulty = document.createElement("h4"); difficulty.classList.add("r_name"); difficulty.innerText = "Difficulty: ".concat(recipe.difficulty.toUpperCase());
+                        let difficulty = document.createElement("h5"); difficulty.classList.add("r_name"); difficulty.innerText = "Difficulty: ".concat(recipe.difficulty.toUpperCase());
                         if (recipe.difficulty == "easy"){
                             difficulty.style.color = "green";
                         }else if (recipe.difficulty == "medium"){
